@@ -1,0 +1,7 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # - jekyll-gallery-generator
+
+# collections:
+#  works:

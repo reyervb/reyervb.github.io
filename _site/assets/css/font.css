@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'kyrillasansserifbold';
+    src: url('/assets/font/kyrillasansserif-bold-webfont.woff2') format('woff2'),
+         url('/assets/font/kyrillasansserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'kyrillasansserif-blackregular';
+    src: url('/font/kyrillasansserif-black-webfont.woff2') format('woff2'),
+         url('/font/kyrillasansserif-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'faunedisplay_black';
+    src: url('/assets/font/faune.display-black-webfont.woff2') format('woff2'),
+         url('/assets/font/faune.display-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'faunetext_bold';
+    src: url('/assets/font/faune.text-bold-webfont.woff2') format('woff2'),
+         url('/assets/font/faune.text-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'faunetext_regular';
+    src: url('/assets/font/faune.text-regular-webfont.woff2') format('woff2'),
+         url('/assets/font/faune.text-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'hatchregular';
+    src: url('/assets/font/hatch-webfont.woff2') format('woff2'),
+         url('/assets/font/hatch-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

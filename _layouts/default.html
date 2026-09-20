@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+
+        <title>{{ page.title }} | REYER</title>
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+        <link rel="canonical" href="https://...../" />
+        <meta name="description"
+            content="REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobili.." />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="REYER" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description"
+            content="REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobili.." />
+        <meta property="og:url" content="https://...../" />
+        <meta property="og:image" content="https://...../cropped-IMG_2487-2.webp" />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description"
+            content="REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobili.." />
+        <meta name="twitter:image" content="https://...../cropped-IMG_2487-2.webp" />
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/font.css">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+            {% seo %}
+    </head>
+    <body>
+        {% include header.html %}
+        {% include navigation.html %}
+        {% if page.my_variable %}
+        {% include {{ page.my_variable }} %}
+        {% endif %}
+        <article>
+        {{ content }}
+        </article>
+    </body>
+</html>
