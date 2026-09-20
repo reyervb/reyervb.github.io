@@ -1,6 +1,6 @@
 ---
 layout: default
-title: info
+title: about
 ---
 
 REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobilises whoreography, the somatics of substance, and club-born socialities to construct embodied archives and counter-narratives. They weave lived experience, mythology, and digital objects into collective imaginaries that challenge dominant pulls +  themselves on stage, shaping new visibilities and making spaces and ways for ‘’Hardcore Softies’’ moving through an overstimulated world, REYER does this frequently by blurring the audiences contracts between passive/active performers, cultivating uncanny and transmissive works every showing. 
