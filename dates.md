@@ -3,7 +3,7 @@ layout: default
 title: dates
 ---
 
-date list 
+<h1>{{ page.title }}</h1>
 
 {% for date in site.data.dates %}
 <p>

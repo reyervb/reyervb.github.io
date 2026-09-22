@@ -34,7 +34,7 @@ h1 {
 
 h2 {
     position:fixed;
-    
+    width: -webkit-fill-available;
     display: inline-block;
     font-family: 'hatchregular', Arial, Helvetica, sans-serif;
     /* font-style: italic; */
