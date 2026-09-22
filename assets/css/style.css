@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    background: #000;
-    color:#fff;
+    background: #fff;
+    color:#000;
     margin:0;
     min-height: 100vh;
     transition: background-color 300ms ease;
@@ -23,6 +23,18 @@ header {
 }
 
 h1 {
+  writing-mode: vertical-rl;
+  padding: 10px;
+  font-weight: bold;
+  position: fixed;
+  top:10px;
+  left:34%; 
+  font-size: 50px;
+}
+
+h2 {
+    position:fixed;
+    
     display: inline-block;
     font-family: 'hatchregular', Arial, Helvetica, sans-serif;
     /* font-style: italic; */
@@ -36,7 +48,7 @@ h1 {
         font-size:50px;
     }
 }
-p, article {
+p, main {
     font-family:'faunetext_regular','Courier New', Courier, monospace;
     font-size: 14px;
         @media  (min-width:601px) {
@@ -51,7 +63,7 @@ a {
         font-size:22px;
     }
     text-decoration: none;
-    color: #fff;
+    color: #000;
     /* padding: 5px; */
     &:hover {
         font-family: 'faunetext_bold, 'Courier New', Courier, monospace';
@@ -64,12 +76,12 @@ li{
 }
 
 nav {
-    position:absolute;
+    position:fixed;
     right: 10px;
     top: 0px;
     align-items: right;
 }
-article {
+main {
     margin: 10vh 5px 0;
 }
 .sub-menu a {
@@ -104,7 +116,7 @@ article {
         top: 35vh;
         left: 0;
     }
-    article {
+    main {
     position:absolute;
     top:0px;
     margin: 0 5px 0 50%;

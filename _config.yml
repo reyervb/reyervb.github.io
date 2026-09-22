@@ -5,3 +5,5 @@ plugins:
 
 # collections:
 #  works:
+
+permalink: /:title
