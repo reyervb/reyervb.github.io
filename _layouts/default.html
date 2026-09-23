@@ -5,13 +5,12 @@
         {% if page.home_variable %}
         {% include {{ page.home_variable }} %}
         {% endif %}
-        {% if page.post_variable %}
-        {% include {{ page.post_variable }} %}
+        {% if layout.post_variable %}
+        {% include {{ layout.post_variable }} %}
         {% endif %}
     </head>    
     <body>
         {% include header.html %}
-        {% include navigation.html %}
         {% if page.my_variable %}
         {% include {{ page.my_variable }} %}
         {% endif %}

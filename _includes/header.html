@@ -1,5 +1,21 @@
-        <header role="banner">
-            <a href="/">
-                <h2>reyer</h2>
-            </a>
-        </header>
+<header role="banner">
+    <a href="/">
+        <p class="logo">reyer</p>
+    </a>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#" data-title="works"><span>works</span></a>
+                <ul class="sub-menu">
+                    {% for post in site.posts %}
+                    <li><a href="{{ post.url }}" data-type="project" data-title="{{ post.title }}"><span>{{ post.title
+                                }}</span></a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% for item in site.data.navigation %}
+            <li><a href="{{ item.link }}" {% if page.url==item.link %} class="current" data-type="page"
+                    data-title="{{ item.name }}" {% endif %}><span>{{ item.name }}</span></a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
