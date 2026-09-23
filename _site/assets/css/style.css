@@ -23,13 +23,17 @@ header {
 }
 
 h1 {
-  writing-mode: vertical-rl;
-  padding: 10px;
-  font-weight: bold;
-  position: fixed;
-  top:10px;
-  left:34%; 
-  font-size: 50px;
+    font-family: 'creato_displaybold';
+    writing-mode: vertical-rl;
+    padding: 10px;
+    margin:0;
+    font-weight: bold;
+    position: fixed;
+    top:9vh;
+    left:0px; 
+    font-size: 40px;
+    line-height: 40px;
+    color:#079ada;
 }
 
 h2 {
@@ -38,7 +42,7 @@ h2 {
     display: inline-block;
     font-family: 'hatchregular', Arial, Helvetica, sans-serif;
     /* font-style: italic; */
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
 
     &:hover {
@@ -82,7 +86,7 @@ nav {
     align-items: right;
 }
 main {
-    margin: 10vh 5px 0;
+    margin: 10vh 5px 0 60px;
 }
 .sub-menu a {
     /* background-color:#000; */
