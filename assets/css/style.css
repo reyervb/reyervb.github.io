@@ -25,6 +25,7 @@ header {
     background-color: #fff;
     height: auto;
     justify-content: space-between;
+    z-index: 100;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
     line-height: 40px;
     color: #079ada;
 
-    @media (min-width: 601px) {
+    @media (min-width: 768px) {
         font-size: 70px;
         line-height: 70px;
     }
@@ -58,7 +59,7 @@ h1 {
         font-style: italic;
     }
 
-    @media (min-width:601px) {
+    @media (min-width:768px) {
         font-size: 60px;
     }
 }
@@ -66,9 +67,9 @@ h1 {
 p,
 main {
     font-family: 'faunetext_regular', 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 15px;
 
-    @media (min-width:601px) {
+    @media (min-width:768px) {
         font-size: 18px;
     }
 }
@@ -78,7 +79,7 @@ a {
     font-size: 16px;
     line-height: 20px;
 
-    @media (min-width:601px) {
+    @media (min-width:768px) {
         font-size: 22px;
     }
 
@@ -108,7 +109,7 @@ nav {
 main {
     margin: 90px 5px 0 60px;
 
-    @media (min-width:601px) {
+    @media (min-width:768px) {
         margin: 90px 5px 0 90px;
     }
 }
@@ -124,7 +125,7 @@ nav li {
     /* background-color:#000; */
     font-size: 12px;
 
-    @media (min-width:601px) {
+    @media (min-width:768px) {
         font-size: 15px;
     }
 }
@@ -153,7 +154,7 @@ nav ul li:active .sub-menu {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .background-video-desktop {
         display: none;
     }
@@ -163,7 +164,7 @@ nav ul li:active .sub-menu {
     }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 768px) {
     .background-video-desktop {
         display: block;
     }

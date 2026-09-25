@@ -1,0 +1,13 @@
+<div class="slideshow-container">
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+{% for image in site.static_files %}
+  {% if image.path contains include.gallery_path %}
+    {% unless image.path contains '.md' %}
+      <div class="mySlides fade">
+        <img src="{{ image.path | relative_url }}" loading="lazy">
+      </div>
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+</div>
