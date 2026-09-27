@@ -7,9 +7,10 @@ post_variable: posthead.html
 <div class="columns">
     <div>{% include gallery.html gallery_path=page.gallery-name %}</div>
     <div>
-        <p>{{ page.performance }}</p>
-        <p>{{ page.duration }}</p>
-        <p>{{ page.location }}</p>
+        <p>{{ page.performance }}<br>
+        {{ page.duration }}<br>
+        {{ page.location }}<br>
+        {{ page.extra }}</p>
 
         {{ content }}
     </div>
