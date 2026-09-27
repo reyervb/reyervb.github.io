@@ -11,7 +11,7 @@ defaults:
       image: /assets/img/reyerlogo.png
 
 plugins:
-  - jekyll-sitemap
+#  - jekyll-sitemap
   - jekyll-seo-tag
 
 permalink: /:title
