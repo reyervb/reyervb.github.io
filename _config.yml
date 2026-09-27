@@ -11,7 +11,12 @@ defaults:
       image: /assets/img/reyerlogo.png
 
 plugins:
-#  - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-minifier
 permalink: /:title
+
+jekyll-minifier:
+  compress_javascript: true
+  compress_css: true
+  remove_comments: true

@@ -8,5 +8,6 @@ gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  # gem "jekyll-gallery-generator"
+  gem "jekyll-minifier"
+  gem "html-proofer", group: :test
 end
