@@ -1,5 +1,4 @@
 ---
-layout: post
 gallery-name: "noisy"
 performance: Noisy Organs (2022)
 duration: 30’’
@@ -12,7 +11,7 @@ In this way, the audience becomes the carrier and activator of sound. Individual
 The central performing body acts as a catalyst, extending its performative presence by activating technological sound organs outside the body itself. Sound circulates between bodies, architecture, and audience, transforming the Oude Kerk into a living, collective instrument.
 
 
-Technical specifications: 
-6x bluetooth speaker in bags 
-1x microphone wireless
-Helium Shark Balloon 
+Technical specifications:  
+6x bluetooth speaker in bags  
+1x microphone wireless  
+Helium Shark Balloon  

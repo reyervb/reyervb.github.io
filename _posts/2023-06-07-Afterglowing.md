@@ -1,5 +1,4 @@
 ---
-layout: post
 gallery-name: "afterglowing"
 performance: Cheap Shadow Dream Shop (2023)
 duration: 35’’
@@ -17,11 +16,11 @@ Philosophizing about fireworks, REYER hopes to launch into ghostlike icons of th
 This work uses DIY objects as main protagonists
 (a phone tied to a hand, and a laptop on feet and face) 
 
-Choreography: REYER 
-VJ: Yadin Bernauer
-Advisor: Toni Steffens and Matthew Day
-Mentorship: Bruno Listopad
-Production: Chantal Mooij 
+Choreography: REYER  
+VJ: Yadin Bernauer  
+Advisor: Toni Steffens and Matthew Day  
+Mentorship: Bruno Listopad  
+Production: Chantal Mooij   
 Technical support during production: Roan Lo-A-Njoe, Kiki Heslenfeld
 Special thanks to: Rose Bouvet, Luqui Lagomarsino, Yadosch, Joy Mariama Smith
 Shown at SNDO 609

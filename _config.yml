@@ -20,3 +20,17 @@ jekyll-minifier:
   compress_javascript: true
   compress_css: true
   remove_comments: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

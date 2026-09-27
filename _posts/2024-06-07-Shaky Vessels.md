@@ -1,5 +1,4 @@
 ---
-layout: post
 gallery-name: "shaky"
 performance: Shaky Vessels
 duration: 30’’

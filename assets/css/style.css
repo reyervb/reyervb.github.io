@@ -54,13 +54,11 @@ h1 {
     font-size: 40px;
     line-height: 1em;
     text-transform: uppercase;
-
-    &:hover {
-        font-style: italic;
-    }
-
     @media (min-width:768px) {
         font-size: 60px;
+            &:hover{
+        font-size:61px;
+    }
     }
 }
 
@@ -82,9 +80,6 @@ header a {
     }
     text-decoration: none;
     color: #000;
-    &:hover {
-        font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
-    }
 }
 
 nav ul {
@@ -101,7 +96,9 @@ li {
 nav {
     align-self: auto;
 }
-
+nav a:hover {
+    font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
+}
 main {
     margin: 90px 5px 0 60px;
     @media (min-width:768px) {

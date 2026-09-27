@@ -1,5 +1,4 @@
 ---
-layout: post
 gallery-name: "cheap"
 performance: Cheap Shadow Dream Shop (2023)
 duration: 35''
@@ -17,9 +16,9 @@ Q2: What are the relations to this smoke and how do we navigate personal histori
 intimacies inside the smoke? 
 Q3: How do our dreams become capitalized under precarious conditions?
 
-Credits:
-Dreamsellers : REYER (Reyer van Barneveld) and Noam Shuster
-Auctioneer: wed-thu-sat: Aryelle Freeman Hopelezz. fr: Yadin Bernauer
-Music by: youngw0man and JiJi JiZu
-Advisor: Charlie Laban Trier &  Maryam Babur 
-Shown at Danstheather Amsterdam 2/3/4 november 2023
+Credits:  
+Dreamsellers : REYER (Reyer van Barneveld) and Noam Shuster  
+Auctioneer: wed-thu-sat: Aryelle Freeman Hopelezz. fr: Yadin Bernauer  
+Music by: youngw0man and JiJi JiZu. 
+Advisor: Charlie Laban Trier &  Maryam Babur  
+Shown at Danstheather Amsterdam 2/3/4 november 2023  

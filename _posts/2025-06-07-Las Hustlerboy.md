@@ -1,5 +1,4 @@
 ---
-layout: post
 gallery-name: "hustler"
 performance: Las Hustlerboy
 duration: 50’’
