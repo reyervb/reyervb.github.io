@@ -1,11 +1,17 @@
 baseurl: ""
 url: "https://reyervb.github.io"
+
+#SEO
+description: REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobi..
+logo: /assets/img/reyerlogo.png
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/reyerlogo.png
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  # - jekyll-gallery-generator
-
-# collections:
-#  works:
 
 permalink: /:title

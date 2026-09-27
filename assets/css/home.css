@@ -5,7 +5,10 @@ body {
 header {
     background-color: rgba(0,0,0,.0);
 }
-a {
+main {
+    display: none;
+}
+header a {
     color:#fff;
 }
 
