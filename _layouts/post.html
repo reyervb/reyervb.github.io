@@ -1,17 +1,15 @@
 ---
 layout: default
 post_variable: posthead.html
+footer_var: footer.html
 ---
 <h1>{{ page.title }}</h1>
 
 <div class="columns">
-    <div>{% include gallery.html gallery_path=page.gallery-name %}</div>
     <div>
-        <p>{{ page.performance }}<br>
-        {{ page.duration }}<br>
-        {{ page.location }}<br>
-        {{ page.extra }}</p>
-
+        {% include gallery.html gallery_path=page.gallery-name %}
+    </div>
+    <div>
         {{ content }}
     </div>
 </div>

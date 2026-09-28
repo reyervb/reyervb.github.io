@@ -28,26 +28,6 @@ header {
     z-index: 100;
 }
 
-h1 {
-    font-family: 'creato_displaybold';
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-    padding: 10px;
-    margin: 0;
-    position: fixed;
-    top: 83px;
-    left: 0px;
-    font-size: 40px;
-    line-height: 40px;
-    color: #079ada;
-
-    @media (min-width: 768px) {
-        font-size: 55px;
-        line-height: 55px;
-    }
-}
-
 .logo {
     display: inline;
     font-family: 'hatchregular', Arial, Helvetica, sans-serif;
@@ -98,6 +78,34 @@ nav {
 }
 nav a:hover {
     font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
+}
+h1 {
+    font-family: 'creato_displaybold';
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 83px;
+    left: 0px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #079ada;
+
+    @media (min-width: 768px) {
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+
+h2 {
+    font-size: 16px;
+        @media (min-width: 768px) {
+        font-size: 18px;
+        }
+    text-align: right;
+    margin:0 10px;
 }
 main {
     margin: 90px 5px 0 60px;
@@ -180,4 +188,18 @@ nav ul li:active .sub-menu {
     object-position: center;
     pointer-events: none;
     z-index: -1;
+}
+footer {
+    display: block;
+    position: relative;
+    text-align: right;
+    padding-right: 10px;
+    & a {
+        color: black;
+        text-decoration: none;
+        &:hover {
+            font-style: italic;
+            color: violet;
+        }
+    }
 }

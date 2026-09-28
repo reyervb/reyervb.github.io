@@ -1,8 +1,8 @@
 ---
 gallery-name: "silent"
-performance: Silent Barks, HotDog Anarchives  (2023)
-location: studio 602 at AHK
 ---
+## Silent Barks, HotDog Anarchives  (2023)
+## studio 602 at AHK
 
 Booklet context (Notitions)
 5/03/23 - This is my ride, but we crash when the show is far gone.
@@ -11,9 +11,9 @@ Nevertheless, let’s build a track together.
 Unrelated recordings manipulating time, while run-ups are
 foregrounded and fragmented sounds are disrupting mother-archives.
 Here, a wellness for future potentiality and stillness is initiated, for an
-overstimulated society.
+overstimulated society.  
 
-Credentials
+Credentials  
 Performed by Sabrina Selensky and Reyer van Barneveld  
 Advised by Michele Rizzo, Charlie Laban Trier and Matthew Day. 
 Custom Speaker Costumes:  by Juli (JiJi Hopelezz) and Publik Universal Frxnd. 
