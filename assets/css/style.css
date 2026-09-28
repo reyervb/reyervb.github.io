@@ -89,13 +89,12 @@ h1 {
     position: fixed;
     top: 83px;
     left: 0px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 1em;
     color: #079ada;
 
     @media (min-width: 768px) {
         font-size: 55px;
-        line-height: 55px;
     }
 }
 
