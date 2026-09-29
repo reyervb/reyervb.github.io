@@ -5,6 +5,9 @@
         {% if page.home_variable %}
         {% include {{ page.home_variable }} %}
         {% endif %}
+        {% if page.post_variable %}
+        {% include {{ page.post_variable }} %}
+        {% endif %}
         {% if layout.post_variable %}
         {% include {{ layout.post_variable }} %}
         {% endif %}
@@ -14,7 +17,7 @@
         {% include header.html %}
         <main role="main">
             <h1>{{ page.title }}</h1>
-            <p>{{ content }}</p>
+            {{ content }}
         </main>
         {% if page.video_variable %}
         {% include {{ page.video_variable }} %}

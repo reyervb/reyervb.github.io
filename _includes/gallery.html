@@ -5,7 +5,8 @@
   {% if image.path contains include.gallery_path %}
     {% unless image.path contains '.md' %}
       <div class="mySlides fade">
-        <img src="{{ image.path | relative_url }}" alt="gallery reyer" loading="lazy">
+        <a href="{{ image.path | relative_url }}" data-lightbox="{{ gallery-name | markdownify }}" data-title="{{ gallery-name | markdownify }}">
+        <img src="{{ image.path | relative_url }}" alt="{{ gallery-name | markdownify }}" loading="lazy" /></a>
       </div>
     {% endunless %}
   {% endif %}

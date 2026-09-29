@@ -19,6 +19,7 @@
         width: 50%;
     }
 }
+
 .mySlides {
     display: none
 }
@@ -29,7 +30,7 @@ img {
 
     @media (min-width:768px) {
         max-width: 43vw;
-        max-height:80vh;
+        max-height: 80vh;
     }
 }
 
@@ -38,6 +39,7 @@ img {
     @media(min-width:768px) {
         position: fixed;
     }
+
     margin: auto;
 }
 
@@ -50,13 +52,13 @@ img {
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     background-color: violet;
     border-radius: 0 3px 3px 0;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .next {
@@ -66,9 +68,9 @@ img {
 
 .fade {
     -webkit-animation-name: fade;
-            animation-name: fade;
+    animation-name: fade;
     -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -98,9 +100,14 @@ img {
         font-size: 11px
     }
 }
-    @media(min-width:768px) {
 
-p:first-child {
-    margin-top: 45px;
-}
+@media(min-width:768px) {
+
+    p:first-child {
+        margin-top: 45px;
     }
+    footer p:first-child {
+        margin-top: 0;
+    }
+}
+
