@@ -204,4 +204,11 @@ footer {
             color: violet;
         }
     }
+        & p {
+        padding-bottom: 5px;
+        margin: 0;
+        &:first-child {
+            padding:0
+        }
+    }
 }
