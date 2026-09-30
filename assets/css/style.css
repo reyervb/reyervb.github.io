@@ -195,8 +195,8 @@ footer {
     position: absolute;
     @media(min-width:768px) {
         position:fixed;
+        bottom:0;
     }
-    bottom:0;
     text-align: center;
     padding-right: 20px;
     & a {
