@@ -192,8 +192,7 @@ footer {
     display: block;
     width: 100vw;
     background-color: white;
-    position: fixed;
-    bottom:0;
+    position: absolute;
     text-align: center;
     padding-right: 20px;
     & a {
@@ -205,6 +204,7 @@ footer {
         }
     }
         & p {
+        font-size:10px;
         padding-bottom: 5px;
         margin: 0;
         &:first-child {
