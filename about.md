@@ -1,6 +1,5 @@
 ---
 title: about
-post_variable: posthead.html
 footer_var: footer.html
 ---
 
