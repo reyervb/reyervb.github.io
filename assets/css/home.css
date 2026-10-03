@@ -15,3 +15,38 @@ header a {
 .sub-menu li {
     background-color: rgba(0,0,0,.0);;
 }
+
+@media (max-width: 767px) {
+    .background-video-desktop {
+        display: none;
+    }
+
+    .background-video-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .background-video-desktop {
+        display: block;
+    }
+
+    .background-video-mobile {
+        display: none;
+    }
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 100vh;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    pointer-events: none;
+    z-index: -1;
+}

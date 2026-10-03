@@ -1,15 +1,25 @@
 ---
 title: dates
-footer_var: footer.html
+layout: page
+picture-name: datesreyer.png
 ---
 
-<h1>{{ page.title }}</h1>
-
+## where can I witness REYER?
 {% for date in site.data.dates %}
-<p>
-{{ date.datum }}
-<br>
-{{ date.naam }}
+<p class="future">
+<b>{{ date.datum }} --- {{ date.naam }}</b><br>
+{{ date.location }}
 </p>
 {% endfor %}
 
+{% if site.data.pastdates.past[0] %}
+{% for item in site.data.pastdates.past %}
+<h3>{{ item.year }}</h3>
+{% if item.performance[0] %}
+{% for entry in item.performance %}
+<b>{{ entry.performer }} --- {{ entry.work }}</b><br>
+{{ entry.details }}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}

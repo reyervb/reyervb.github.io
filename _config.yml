@@ -1,19 +1,23 @@
 baseurl: ""
 url: "https://reyervb.github.io"
+email: vanbarneveldreyer@gmail.com
 
 #SEO
 description: REYER is choreographer, curator, and producer working across multidisciplinary performance, nightlife, and embodied research, whose experimental practice mobi..
-logo: /assets/img/reyerlogo.png
+logo: assets/img/reyerlogo.png
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/reyerlogo.png
+      image: assets/img/reyerlogo.png
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
+  - jekyll-email-protect
+  - jekyll_picture_tag
+
 permalink: /:title
 
 jekyll-minifier:
@@ -28,9 +32,25 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  # -
+  #   scope:
+  #     path: [about.html, dates.html]
+  #     type: "pages"
+  #   values:
+  #     layout: "page"
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+picture:
+  source: "assets/img/"
+  formats: [webp, jpg, original]
+  # suppress_warnings: true
+  # ignore_missing_images: true 

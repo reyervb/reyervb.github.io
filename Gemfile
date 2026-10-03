@@ -10,4 +10,8 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-minifier"
   gem "html-proofer", group: :test
+  gem 'jekyll-email-protect'
+  gem 'jekyll_picture_tag', '~> 2.0'
+  gem 'csv'
+  gem 'base64'
 end

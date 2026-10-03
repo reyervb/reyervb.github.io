@@ -1,12 +1,12 @@
 ---
 layout: default
-post_variable: posthead.html
+page_variable: pagehead.html
 footer_var: footer.html
 ---
 
-<div class="columns"> 
+<div class="columns">
     <div>
-        {% include gallery.html gallery_path=page.gallery-name %}
+          {% picture "{{ page.picture-name }}" %}
     </div>
     <div>
         {{ content }}
