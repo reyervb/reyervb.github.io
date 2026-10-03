@@ -53,4 +53,4 @@ picture:
   source: "assets/img/"
   formats: [webp, jpg, original]
   # suppress_warnings: true
-  # ignore_missing_images: true 
+  ignore_missing_images: true 
