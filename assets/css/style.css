@@ -99,10 +99,6 @@ nav .sub-menu {
     font-size: 12px;
     text-transform: capitalize;
 
-    &:hover {
-        font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
-    }
-
     @media (min-width:768px) {
         font-size: 15px;
     }
@@ -154,14 +150,20 @@ main {
         margin: 90px 5px 50px 90px;
     }
 }
-
+div:has(.button){
+    margin-top: 20px;
+    
+    @media(min-width:768px) {
+        margin-top: 9px;
+    }
+    
+}
 .button {
     background-color: violet;
     padding: .5em;
     border-radius: 3px;
     text-decoration: none;
     color: white;
-    margin-top: 45px;
     box-shadow: inset -2px -2px 0px 0px violet;
 
     &:hover {

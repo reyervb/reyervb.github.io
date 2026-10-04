@@ -9,6 +9,9 @@ footer_var: footer.html
           {% picture jpt-webp "{{ page.picture-name }}" %}
     </div>
     <div>
+        {% if page.mail %}
+        {% include {{ page.mail }} %}
+        {% endif %}
         {{ content }}
     </div>
 </div>

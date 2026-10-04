@@ -19,12 +19,17 @@ h3 {
 
 .columns>* {
     width: 100%;
-    padding: .5rem;
 }
 
 @media (min-width:768px) {
     .columns>* {
+        padding-top: 4px;
         width: 50%;
+    }
+
+    h2 {
+        margin-top: 0;
+        line-height: .8em;
     }
 }
 
@@ -38,11 +43,6 @@ img {
 }
 
 @media(min-width:768px) {
-
-    p:first-child {
-        margin-top: 0;
-    }
-
     footer p:first-child {
         margin-top: 0;
     }

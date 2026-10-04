@@ -1,6 +1,7 @@
 ---
 title: about
 layout: page
+mail: email.html
 picture-name: BIOfoto.jpg
 ---
 
@@ -11,5 +12,3 @@ Their work has been presented across European artistic and cultural contexts, in
 REYER is also the founder of sSSsSensationsSs, curating and producing nightlife events focusing on Queer / Trans / BIPOC practices. Giving a platform to DJ’s and performance artist transforming a club into a laboratory to explore/try out material inside nightlife formats, to find new entrances on how to inject their practices inside a dynamic space with many social context, sSSsSensationsSs is an ongoing project since 2021 resulting in 8 editions, giving platform to over more then 100 Queer Trans and BIPOC bodies   
 
 REYER graduated from the SNDO School for New Dance Development in Amsterdam in 2026, following several years of self-directed practice as a visual artist. Their multidisciplinary practice operates across visual art, performance, and nightlife, investigating forms of collective experience, embodiment, and cultural production
-
-<a class="button" href="mailto:{{ site.email | encode_email }}" title="Contact me">Email me</a>  
