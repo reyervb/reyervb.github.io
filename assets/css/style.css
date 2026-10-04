@@ -3,7 +3,6 @@ html {
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
-    view-transition-name: root;
 }
 
 body {
@@ -11,7 +10,6 @@ body {
     color: #000;
     margin: 0;
     min-height: 100vh;
-    transition: background-color 300ms ease;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -28,17 +26,32 @@ header {
     z-index: 100;
 }
 
+header a {
+    font-family: 'faunetext_regular', 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 20px;
+
+    @media (min-width:768px) {
+        font-size: 22px;
+    }
+
+    text-decoration: none;
+    color: #000;
+}
+
 .logo {
     display: inline;
     font-family: 'hatchregular', Arial, Helvetica, sans-serif;
     font-size: 40px;
     line-height: 1em;
     text-transform: uppercase;
+
     @media (min-width:768px) {
         font-size: 60px;
-            &:hover{
-        font-size:61px;
-    }
+
+        &:hover {
+            font-size: 61px;
+        }
     }
 }
 
@@ -46,20 +59,10 @@ p,
 main {
     font-family: 'faunetext_regular', 'Courier New', Courier, monospace;
     font-size: 15px;
+
     @media (min-width:768px) {
         font-size: 18px;
     }
-}
-
-header a {
-    font-family: 'faunetext_regular', 'Courier New', Courier, monospace;
-    font-size: 16px;
-    line-height: 20px;
-    @media (min-width:768px) {
-        font-size: 22px;
-    }
-    text-decoration: none;
-    color: #000;
 }
 
 nav ul {
@@ -76,14 +79,55 @@ li {
 nav {
     align-self: auto;
 }
+
 nav a:hover {
     font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
 }
+
+nav li {
+    display: inline-block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+nav .sub-menu {
+    position: absolute;
+}
+
+.sub-menu a {
+    font-size: 12px;
+    text-transform: capitalize;
+
+    @media (min-width:768px) {
+        font-size: 15px;
+    }
+}
+
+ul.sub-menu {
+    padding: 7px 0px;
+}
+
+.sub-menu li {
+    display: block;
+    background-color: #fff;
+}
+
+nav ul li>.sub-menu {
+    display: none;
+}
+
+nav ul li:hover .sub-menu,
+nav ul li:focus .sub-menu,
+nav ul li:active .sub-menu {
+    display: block;
+}
+
 h1 {
     font-family: 'creato_displaybold';
     -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
     text-transform: capitalize;
     padding: 10px;
     margin: 0;
@@ -101,88 +145,56 @@ h1 {
 
 main {
     margin: 90px 5px 50px 60px;
+
     @media (min-width:768px) {
         margin: 90px 5px 50px 90px;
     }
 }
 
-
-nav li {
-    display: inline-block;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-}
-
-.sub-menu a {
-    /* background-color:#000; */
-    font-size: 12px;
-
-    @media (min-width:768px) {
-        font-size: 15px;
-    }
-}
-
-.sub-menu li {
-    display: block;
-    background-color: #fff;
-}
-
-nav .sub-menu {
-    position: absolute;
-}
-
-ul.sub-menu {
-    padding: 7px 0px;
-}
-
-nav ul li>.sub-menu {
-    display: none;
-}
-
-nav ul li:hover .sub-menu,
-nav ul li:focus .sub-menu,
-nav ul li:active .sub-menu {
-    display: block;
-}
-
 .button {
-    background-color:violet;
-    padding:.5em;
-    border-radius: 4px;
+    background-color: violet;
+    padding: .5em;
+    border-radius: 3px;
     text-decoration: none;
-    color:white;
+    color: white;
     margin-top: 45px;
-    box-shadow: inset -2px -2px 0px 0px #4AA52E;
+    box-shadow: inset -2px -2px 0px 0px violet;
+
     &:hover {
-        box-shadow: inset -1px -1px 0px 0px #4AA52E;
         font-style: italic;
     }
 }
+
 footer {
     display: block;
     width: 100vw;
     background-color: white;
     position: relative;
+
     @media(min-width:768px) {
-        position:fixed;
-        bottom:0;
+        position: fixed;
+        bottom: 0;
     }
+
     text-align: center;
     padding-right: 20px;
+
     & a {
         color: black;
+
         &:hover {
             font-style: italic;
             color: violet;
         }
     }
-        & p {
-        font-size:10px;
+
+    & p {
+        font-size: 10px;
         padding-bottom: 5px;
         margin: 0;
+
         &:first-child {
-            padding:0
+            padding: 0
         }
     }
 }
