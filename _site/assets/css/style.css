@@ -81,7 +81,7 @@ nav {
 }
 
 nav a:hover {
-    font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
+    font-style: italic;
 }
 
 nav li {
@@ -98,6 +98,10 @@ nav .sub-menu {
 .sub-menu a {
     font-size: 12px;
     text-transform: capitalize;
+
+    &:hover {
+        font-family: 'faunetext_bold', 'Courier New', Courier, monospace;
+    }
 
     @media (min-width:768px) {
         font-size: 15px;
