@@ -1,7 +1,10 @@
 text this is written in [markdown](https://www.markdownguide.org/basic-syntax/) 
 please do not use  #(h1) or ##(h2). these are formatted in the code.
+it matters a lot how much spaces / tabs are in front of the date/pastdate files. every input of urs is calculated.  
+therefor, copy-paste is the secret. edit precisely and with caution. always check what has been edited.
 
-- add info to [dates](https://github.com/reyervb/reyervb.github.io/blob/main/_data/dates.yml) 
+- add info to [dates/cv](https://github.com/reyervb/reyervb.github.io/blob/main/_data/dates/cv.yml)  
+  and [past dates](https://github.com/reyervb/reyervb.github.io/blob/main/_data/pastdates.yml) 
 - edit [about](https://github.com/reyervb/reyervb.github.io/blob/main/about.md)
 - u can copy the raw data of 'about.md' and add a file in the root to make another page. use the .md extension.  
   the 'title:' is h1. change this one to your new title and it will appear vertical
