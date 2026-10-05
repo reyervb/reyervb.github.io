@@ -6,8 +6,6 @@ html {
 }
 
 body {
-    background: #fff;
-    color: #000;
     margin: 0;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
@@ -123,25 +121,7 @@ nav ul li:active .sub-menu {
     display: block;
 }
 
-h1 {
-    font-family: 'creato_displaybold';
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    text-transform: capitalize;
-    padding: 10px;
-    margin: 0;
-    position: fixed;
-    top: 83px;
-    left: 0px;
-    font-size: 34px;
-    line-height: 1em;
-    color: #079ada;
 
-    @media (min-width: 768px) {
-        font-size: 55px;
-    }
-}
 
 main {
     margin: 90px 5px 50px 60px;
@@ -150,14 +130,16 @@ main {
         margin: 90px 5px 50px 90px;
     }
 }
-div:has(.button){
+
+div:has(.button) {
     margin-top: 20px;
-    
+
     @media(min-width:768px) {
         margin-top: 9px;
     }
-    
+
 }
+
 .button {
     background-color: violet;
     padding: .5em;

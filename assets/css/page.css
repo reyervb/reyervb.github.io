@@ -2,6 +2,31 @@
     box-sizing: border-box
 }
 
+body {
+    background: #fff;
+    color: #000;
+}
+
+h1 {
+    font-family: 'creato_displaybold';
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 83px;
+    left: 0px;
+    font-size: 34px;
+    line-height: 1em;
+    color: #079ada;
+
+    @media (min-width: 768px) {
+        font-size: 55px;
+    }
+}
+
 h2,
 p.future {
     color: violet;
@@ -23,7 +48,7 @@ h3 {
 
 @media (min-width:768px) {
     .columns>* {
-        padding-top: 4px;
+        padding: 5px 0 50px;
         width: 50%;
     }
 
