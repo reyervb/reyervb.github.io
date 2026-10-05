@@ -2,8 +2,8 @@
 gallery-name: "afterglowing"
 ---
 
-## Cheap Shadow Dream Shop (2023)
-## 35’’
+## Afterglowing (2023)
+## 30 min
 ## w/ Yadin Bernauer 
 ## SNDO
 
