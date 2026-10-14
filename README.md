@@ -1,7 +1,7 @@
 text is written in [markdown](https://www.markdownguide.org/basic-syntax/) except for the dates/cv page  
 please do not use  #(h1) or ##(h2). these are formatted in the code.  
 
-- add info to [dates / cv](https://github.com/reyervb/reyervb.github.io/blob/main/_data/dates/cv.yml)  
+- add info to [dates/cv](https://github.com/reyervb/reyervb.github.io/blob/main/_data/dates.yml)  
   and [past dates](https://github.com/reyervb/reyervb.github.io/blob/main/_data/pastdates.yml)  
 it matters a lot how much spaces / tabs are in front of the date/pastdate files. every input of urs is calculated.  
 therefor, copy-paste is the secret. edit precisely and with caution. always check what has been edited.  
