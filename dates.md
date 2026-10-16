@@ -1,5 +1,5 @@
 ---
-title: dates
+title: dates / cv
 layout: page
 picture-name: datesreyer.png
 ---

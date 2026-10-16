@@ -141,14 +141,14 @@ div:has(.button) {
 }
 
 .button {
-    background-color: violet;
+    background-color: #ee82ee;
     padding: .5em;
     border-radius: 3px;
     text-decoration: none;
     color: white;
-    box-shadow: inset -2px -2px 0px 0px violet;
+    transition: background-color 1s;
 
-    &:hover {
+    &:hover, &:focus, &:active{
         font-style: italic;
     }
 }
@@ -172,7 +172,7 @@ footer {
 
         &:hover {
             font-style: italic;
-            color: violet;
+            color: #ee82ee;
         }
     }
 
